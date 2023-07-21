@@ -1,187 +1,517 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>project</title>
-    <link rel="stylesheet" href="./css/index.css">
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>project</title>
+<link rel="stylesheet" href="./css/index.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+<script defer src="./JS/index.js"></script>
+<script defer src="./JS/common.js"></script>
 </head>
+
 <body>
-    <header>
-        <div class="head-area">
-            <div>
-                <h2><a href="#"><img src="./imgs/logo.png" alt=""></a></h2>
-                <div class="lang">
-                    <a href="#">Kor</a>
-                    <a href="#">Eng</a>
+
+<header>
+    <div class="head-area">
+        <div>
+            <h2><a href="./index.html"><img src="./imgs/logo.png" alt=""></a></h2>
+            <div class="lang">
+                <a href="#">Kor</a>
+                <a href="#">Eng</a>
+            </div>
+        </div>
+        <nav>
+            <a class="menu" href="#"><img src="./imgs/sitemap_btn2.png" alt=""></a>
+        </nav>
+    </div>
+
+
+    <!-- 헤더 클릭했을때 보이는 메뉴  -->
+    <!-- 헤드 메뉴클릭하기 -->
+    <section class="head-toggle">
+        <div class="bg"></div>
+        <div class="header-menuLi">
+            <ul class="menuLi">
+                <li>
+                    <b>About Us</b>
+                    <a href="./sub.html">ShinhanArt</a>
+                    <a href="#">Our History</a>
+                    <a href="#">Contact US</a>
+                </li>
+                <li>
+                    <b>product</b>
+                    <a href="#">Oil Color</a>
+                    <a href="#">Acrylic Color</a>
+                    <a href="#">Water Color</a>
+                    <a href="#">Poster Color</a>
+                    <a href="#">Korean Color</a>
+                    <a href="#">Gouache</a>
+                    <a href="#">Markers</a>
+                    <a href="#">Pastel</a>
+                    <a href="#">Paper</a>
+                    <a href="#">Brushes</a>
+                    <a href="#">Mediums</a>
+                    <a href="#">Accessories</a>
+                </li>
+                <li>
+                    <b>Brand</b>
+                    <a href="#">TOUCH</a>
+                    <a href="#">PRO Line</a>
+                    <a href="#">sh</a>
+                    <a href="#">SHAMI</a>
+                    <a href="#">START</a>
+                </li>
+                <li>
+                    <b>Import Brands</b>
+                    <a href="#">FLEUR</a>
+                    <a href="#">PANPASTEL</a>
+                    <a href="#">BB</a>
+                    <a href="#">MAGNANI</a>
+                    <a href="#">KUM</a>
+                </li>
+                <li>
+                    <b>Inspiration</b>
+                    <a href="#">Artist</a>
+                    <a href="#">Thinkart Korea</a>
+                    <a href="#">Postcard Art Contest</a>
+                </li>
+                <li>
+                    <b>Discover</b>
+                    <a href="#">Tips & Techniques</a>
+                    <a href="#">Blog & Post</a>
+                    <a href="#">Event</a>
+                    <a href="#">News</a>
+                </li>
+                <li>
+                    <b>Store</b>
+                </li>
+            </ul>
+        </div>
+</section>
+</header>
+<div class="swipe">
+    <main>
+        <article class="swiper mySwiper scroll">
+            <div class="swiper-wrapper">
+                <div class="mainpage swiper-slide">
+                    <img src="./imgs/16892218961.jpg" alt="">
+                    <img class="mainpage2" src="./imgs/16596599143.jpg" alt="">
+                    <div>
+                        <b class="fade-out-text">
+                        </b>
+                        <p>
+                            <span>신한 전문가 유화는 총 109색으로 최고급 안료와 세밀하게 정제된 고급 기름을 사용합니다.
+                            고도의 기술력을 기반으로 유화에서 가장 중요한 균형 잡힌 점도와 뛰어난 발색, 높은 내광성을
+                            갖추고 있으며 중후한 깊이와 함께 트렌디한 컬러 감성을 구현합니다.
+                            </span>
+                        </p>
+                        <a href="#"><span>+</span>Learn more</a>
+                    </div>
+                </div>
+                <div class="mainpage swiper-slide">
+                    <img src="./imgs/16874995871.jpg" alt="">
+                    <img class="mainpage2" src="./imgs/16596599143.jpg" alt="">
+                    <div>
+                        <b class="fade-out-text"></b>
+                        <p>TOUCH™ 오펙 마카는 100% 순수 안료 잉크 기반의 불투명 페인트 마카입니다. 어떤 배경에서도
+                            생생함이 살아있는 선명한 발색을 구현하며 거의 모든 표면에 사용이 가능합니다. 내광성을 갖춘
+                            총 15가지 컬러와 2가지 사이즈의 닙 타입을 선택할 수 있습니다.
+                        </p>
+                        <a href="#"><span>+</span>Learn more</a>
+                    </div>
+                </div>
+                <div class="mainpage swiper-slide">
+                    <img src="./imgs/main-1.jpg" alt="">
+                    <img class="mainpage2" src="./imgs/16596599143.jpg" alt="">
+                    <div>
+                        <b class="fade-out-text"></b>
+                        <p>신한 전문가 유화는 총 109색으로 최고급 안료와 세밀하게 정제된 고급 기름을 사용합니다.
+                            고도의 기술력을 기반으로 유화에서 가장 중요한 균형 잡힌 점도와 뛰어난 발색, 높은 내광성을
+                            갖추고 있으며 중후한 깊이와 함께 트렌디한 컬러 감성을 구현합니다.
+                        </p>
+                        <a href="#"><span>+</span>Learn more</a>
+                    </div>
+                </div>
+                <div class="mainpage swiper-slide">
+                    <img src="./imgs/main-2.jpg" alt="">
+                    <img class="mainpage2" src="./imgs/16596599143.jpg" alt="">
+                    <div>
+                        <b class="fade-out-text"></b>
+                        <p>최고급 안료와 현대적 컬러 기술로 엄선하여 선택된 깊이있고 중후한 61색의 다양한 색상으로
+                            전문가들의 최고 수준의 아크릴컬러 경험을 선사합니다. 뛰어난 유연성, 내광성, 내수성, 강한
+                            고착력은 장기적인 보존을 가능하게 합니다.
+                        </p>
+                        <a href="#"><span>+</span>Learn more</a>
+                    </div>
+                </div>
+                <div class="mainpage swiper-slide">
+                    <img src="./imgs/16596596361.jpg" alt="">
+                    <img class="mainpage2" src="./imgs/16596599143.jpg" alt="">
+                    <div>
+                        <b class="fade-out-text"></b>
+                        <p>안료의 입자 크기에 따라 단위 면적당 안료 밀도가 다르고 투명도 또한 다르게 나타나며 빛이 반사되어
+                            오는 굴절률에 의해서도 투명도가 다릅니다. SWC는 이러한 재료학적 특성을 실현한 최고급 수채화물감
+                            입니다. 신한 최고급 전문가 수채화물감은 총 104색으로 선보입니다.
+                        </p>
+                        <a href="#"><span>+</span>Learn more</a>
+                    </div>
+                </div>
+                <div class="mainpage swiper-slide">
+                    <img src="./imgs/16596596791.jpg" alt="">
+                    <img class="mainpage2" src="./imgs/16596599143.jpg" alt="">
+                    <div>
+                        <b class="fade-out-text"></b>
+                        <p>신한 전문가 과슈는 선별된 최고급 안료와 수용성 아라빅검을 사용합니다. 안료의 함량을
+                            기존 제품 대비 대폭 늘려 컬러의 밀도가 높아 풍부하고 깊은 색감의 완전한 불투명을 표현
+                            합니다. 활력이 넘치고 생동감이 느껴지는 총 72가지 컬러를 경험해 보세요.
+                        </p>
+                        <a href="#"><span>+</span>Learn more</a>
+                    </div>
+                </div>
+                <div class="mainpage swiper-slide">
+                    <img src="./imgs/16596596681.jpg" alt="">
+                    <img class="mainpage2" src="./imgs/16596599143.jpg" alt="">
+                    <div>
+                        <b class="fade-out-text"></b>
+                        <p>전문가들의 작업에서 컬러의 역할은 의도하는 컨셉, 방향에 맞는 색 표현을 정확하게 구현하는
+                            것입니다. 신한 전문가 포스터컬러는 생동감이 넘치며 색상과 명도의 색 값이 정확하고 은폐력
+                            이 높은 불투명의 총 69가지 컬러를 제공하고 있습니다.
+                        </p>
+                        <a href="#"><span>+</span>Learn more</a>
+                    </div>
                 </div>
             </div>
-            <nav>
-                <a class="menu" href="#"><img src="./imgs/sitemap_btn2.png" alt=""></a>
-            </nav>
-        </div>
-    </header>
-    
-    <main>
-        <div class="mainpage"><img src="./imgs/main-1.jpg" alt="">
-            <img class="mainpage2" src="./imgs/16596599143.jpg" alt="">
-            <div>
-                <b>신한 전문가 오일컬러</b>
-                <p>신한 전문가 유화는 총 109색으로 최고급 안료와 세밀하게 정제된 고급 기름을 사용합니다.
-                    고도의 기술력을 기반으로 유화에서 가장 중요한 균형 잡힌 점도와 뛰어난 발색, 높은 내광성을
-                    갖추고 있으며 중후한 깊이와 함께 트렌디한 컬러 감성을 구현합니다.
-                </p>
-                <a href="#"><span>+</span>Learn more</a>
+            <div class="swiper-pagination">
+                <button class="swiper-pagination-bullet">
+                    <span class="num">01</span>
+                    <span class="progress-bar"></span>
+                </button>
             </div>
-        </div>
+        </article>
 
-        <article class="mainp1">
+        <article class="mainp1 scroll">
             <div>
                 <h2><img src="./imgs/title_logo.png" alt="">News</h2>
                 <p>신한화구의 최신 정보와 브랜드, 제품, 이벤트 등 활동 전반에 관한 소식을 확인하세요.</p>
             </div>
-            <div  class="slide">
-                <figure><img src="./imgs/contents-1.jpg" alt="">
+            <div class="swiper mySwiper-1">
+                <div class="slide swiper-wrapper">
+                    <figure class="swiper-slide">
+                        <img src="./imgs/contents-1.jpg" alt="">
                         <img class="imgh" src="./imgs/content-1.1.jpg" alt="">
-                    <figcaption>
-                        <b>드디어 시작! 신한 Art 어택</b>
-                        <p>신한 Art어택은 시즌별로 멈춤 없이 계속되는 신한화구만의 공격적인 구매 이벤트입니다.
-                            한정 기간 동안 신한화구의 새로운 신제품과 최고급 미술 재료, 해외 프리미엄 브랜드를
-                            합리적인 가격으로 구매하고 무료 증정품까지 푸짐하게 받아가세요. 신한 Art 어택 기간
-                            동안 여러분들의 미술 재료 컬렉션을 최고의 제품으로 업그레이드하세요!
-                        </p>
-                        <a href="#"><span>+</span>Learn more</a>
-                    </figcaption>
-                </figure>
+                        <figcaption>
+                            <b>드디어 시작! 신한 Art 어택</b>
+                            <p>신한 Art어택은 시즌별로 멈춤 없이 계속되는 신한화구만의 공격적인 구매 이벤트입니다.
+                                한정 기간 동안 신한화구의 새로운 신제품과 최고급 미술 재료, 해외 프리미엄 브랜드를
+                                합리적인 가격으로 구매하고 무료 증정품까지 푸짐하게 받아가세요. 신한 Art 어택 기간
+                                동안 여러분들의 미술 재료 컬렉션을 최고의 제품으로 업그레이드하세요!
+                            </p>
+                            <a href="#"><span>+</span>Learn more</a>
+                        </figcaption>
+                    </figure>
+                    <figure class="swiper-slide">
+                        <img src="./imgs/contents-2.jpg" alt="">
+                        <img class="imgh" src="./imgs/contents-2.1.jpg" alt="">
+                        <figcaption>
+                            <b>드디어 시작! 신한 Art 어택</b>
+                            <p>신한 Art어택은 시즌별로 멈춤 없이 계속되는 신한화구만의 공격적인 구매 이벤트입니다.
+                                한정 기간 동안 신한화구의 새로운 신제품과 최고급 미술 재료, 해외 프리미엄 브랜드를
+                                합리적인 가격으로 구매하고 무료 증정품까지 푸짐하게 받아가세요. 신한 Art 어택 기간
+                                동안 여러분들의 미술 재료 컬렉션을 최고의 제품으로 업그레이드하세요!
+                            </p>
+                            <a href="#"><span>+</span>Learn more</a>
+                        </figcaption>
+                    </figure>
+                    <figure class="swiper-slide">
+                        <img src="./imgs/contents-3.jpg" alt="">
+                        <img class="imgh" src="./imgs/contents-3.1.jpg" alt="">
+                        <figcaption>
+                            <b>드디어 시작! 신한 Art 어택</b>
+                            <p>신한 Art어택은 시즌별로 멈춤 없이 계속되는 신한화구만의 공격적인 구매 이벤트입니다.
+                                한정 기간 동안 신한화구의 새로운 신제품과 최고급 미술 재료, 해외 프리미엄 브랜드를
+                                합리적인 가격으로 구매하고 무료 증정품까지 푸짐하게 받아가세요. 신한 Art 어택 기간
+                                동안 여러분들의 미술 재료 컬렉션을 최고의 제품으로 업그레이드하세요!
+                            </p>
+                            <a href="#"><span>+</span>Learn more</a>
+                        </figcaption>
+                    </figure>
+                    <figure class="swiper-slide">
+                        <img src="./imgs/contents-4.jpg" alt="">
+                        <img class="imgh" src="./imgs/contents-4.1.jpg" alt="">
+                        <figcaption>
+                            <b>드디어 시작! 신한 Art 어택</b>
+                            <p>신한 Art어택은 시즌별로 멈춤 없이 계속되는 신한화구만의 공격적인 구매 이벤트입니다.
+                                한정 기간 동안 신한화구의 새로운 신제품과 최고급 미술 재료, 해외 프리미엄 브랜드를
+                                합리적인 가격으로 구매하고 무료 증정품까지 푸짐하게 받아가세요. 신한 Art 어택 기간
+                                동안 여러분들의 미술 재료 컬렉션을 최고의 제품으로 업그레이드하세요!
+                            </p>
+                            <a href="#"><span>+</span>Learn more</a>
+                        </figcaption>
+                    </figure>
+                    <figure class="swiper-slide">
+                        <img src="./imgs/contents-5.jpg" alt="">
+                        <img class="imgh" src="./imgs/contents-5.1.jpg" alt="">
+                        <figcaption style="color:#000">
+                            <b>드디어 시작! 신한 Art 어택</b>
+                            <p>신한 Art어택은 시즌별로 멈춤 없이 계속되는 신한화구만의 공격적인 구매 이벤트입니다.
+                                한정 기간 동안 신한화구의 새로운 신제품과 최고급 미술 재료, 해외 프리미엄 브랜드를
+                                합리적인 가격으로 구매하고 무료 증정품까지 푸짐하게 받아가세요. 신한 Art 어택 기간
+                                동안 여러분들의 미술 재료 컬렉션을 최고의 제품으로 업그레이드하세요!
+                            </p>
+                            <a href="#"><span>+</span>Learn more</a>
+                        </figcaption>
+                    </figure>
+                    <figure class="swiper-slide">
+                        <img src="./imgs/contents-6.jpg" alt="">
+                        <img class="imgh" src="./imgs/contents-6.1.jpg" alt="">
+                        <figcaption style="color:#666">
+                            <b>드디어 시작! 신한 Art 어택</b>
+                            <p>신한 Art어택은 시즌별로 멈춤 없이 계속되는 신한화구만의 공격적인 구매 이벤트입니다.
+                                한정 기간 동안 신한화구의 새로운 신제품과 최고급 미술 재료, 해외 프리미엄 브랜드를
+                                합리적인 가격으로 구매하고 무료 증정품까지 푸짐하게 받아가세요. 신한 Art 어택 기간
+                                동안 여러분들의 미술 재료 컬렉션을 최고의 제품으로 업그레이드하세요!
+                            </p>
+                            <a href="#"><span>+</span>Learn more</a>
+                        </figcaption>
+                    </figure>
+                    <figure class="swiper-slide">
+                        <img src="./imgs/contents-7.jpg" alt="">
+                        <img class="imgh" src="./imgs/contents-7.1.jpg" alt="">
+                        <figcaption>
+                            <b>드디어 시작! 신한 Art 어택</b>
+                            <p>신한 Art어택은 시즌별로 멈춤 없이 계속되는 신한화구만의 공격적인 구매 이벤트입니다.
+                                한정 기간 동안 신한화구의 새로운 신제품과 최고급 미술 재료, 해외 프리미엄 브랜드를
+                                합리적인 가격으로 구매하고 무료 증정품까지 푸짐하게 받아가세요. 신한 Art 어택 기간
+                                동안 여러분들의 미술 재료 컬렉션을 최고의 제품으로 업그레이드하세요!
+                            </p>
+                            <a href="#"><span>+</span>Learn more</a>
+                        </figcaption>
+                    </figure>
+                    <figure class="swiper-slide">
+                        <img src="./imgs/contents-8.jpg" alt="">
+                        <img class="imgh" src="./imgs/contents-8.1.jpg" alt="">
+                        <figcaption>
+                            <b>드디어 시작! 신한 Art 어택</b>
+                            <p>신한 Art어택은 시즌별로 멈춤 없이 계속되는 신한화구만의 공격적인 구매 이벤트입니다.
+                                한정 기간 동안 신한화구의 새로운 신제품과 최고급 미술 재료, 해외 프리미엄 브랜드를
+                                합리적인 가격으로 구매하고 무료 증정품까지 푸짐하게 받아가세요. 신한 Art 어택 기간
+                                동안 여러분들의 미술 재료 컬렉션을 최고의 제품으로 업그레이드하세요!
+                            </p>
+                            <a href="#"><span>+</span>Learn more</a>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="swiper-pagination"></div>
             </div>
-        <!--<div>슬라이드 버튼</div>
-            <div>인디게이터</div> -->
         </article>
 
-        <article class="mainp2">
+        <article class="mainp2 scroll">
             <div>
                 <h2><img src="./imgs/title_logo.png" alt="">products</h2>
                 <p>신한화구는 대한민국 대표 전문가 미술재료 제조 기업으로 미술에 관한 모든 것을 제공합니다.</p>
             </div>
             <figure class="colors">
-                <a href="#"><img src="./imgs/mini-1.png" alt=""><p>Watercolors</p></a>
-                <a href="#"><img src="./imgs/mini-2.png" alt=""><p>Oil Colors</p></a>
-                <a href="#"><img src="./imgs/mini-3.png" alt=""><p>Poster Colors</p></a>
-                <a href="#"><img src="./imgs/mini-4.png" alt=""><p>Acrylic Colors</p></a>
-                <a href="#"><img src="./imgs/mini-5.png" alt=""><p>Korean Colors</p></a>
-                <a href="#"><img src="./imgs/mini-6.png" alt=""><p>Gouache</p></a>
-                <a href="#"><img src="./imgs/mini-7.png" alt=""><p>Pastel</p></a>
-                <a href="#"><img src="./imgs/mini-8.png" alt=""><p>Markers & Graphic Art</p></a>
-                <a href="#"><img src="./imgs/mini-9.png" alt=""><p>Mediums</p></a>
-                <a href="#"><img src="./imgs/mini-10.png" alt=""><p>Accessories</p></a>
+                <a href="#"><img src="./imgs/mini-1.png" alt="">
+                    <p>Watercolors</p>
+                </a>
+                <a href="#"><img src="./imgs/mini-2.png" alt="">
+                    <p>Oil Colors</p>
+                </a>
+                <a href="#"><img src="./imgs/mini-3.png" alt="">
+                    <p>Poster Colors</p>
+                </a>
+                <a href="#"><img src="./imgs/mini-4.png" alt="">
+                    <p>Acrylic Colors</p>
+                </a>
+                <a href="#"><img src="./imgs/mini-5.png" alt="">
+                    <p>Korean Colors</p>
+                </a>
+                <a href="#"><img src="./imgs/mini-6.png" alt="">
+                    <p>Gouache</p>
+                </a>
+                <a href="#"><img src="./imgs/mini-7.png" alt="">
+                    <p>Pastel</p>
+                </a>
+                <a href="#"><img src="./imgs/mini-8.png" alt="">
+                    <p>Markers & Graphic Art</p>
+                </a>
+                <a href="#"><img src="./imgs/mini-9.png" alt="">
+                    <p>Mediums</p>
+                </a>
+                <a href="#"><img src="./imgs/mini-10.png" alt="">
+                    <p>Accessories</p>
+                </a>
             </figure>
         </article>
-        <article class="mainp3">
+
+        <article class="mainp3 scroll">
             <div>
                 <h2><img src="./imgs/title_logo.png" alt="">Major ShinHan Brands</h2>
                 <p>전문가부터 주니어까지 신한화구의 특별한 브랜드 라인업을 경험하세요.</p>
             </div>
-            <figure class="slide2">
-                <img class="img1" src="./imgs/main-s-1.png" alt="">
-                <img class="imgmini1" src="./imgs/16599441383.jpg" alt="">
-                <figcaption>
-                    <img src="./imgs/16499234512.png" alt="">
-                    <p>미술 분야의 전문가들을 위해 신한화구의 모든 기술과 노하우를 적용한 PROFESSIONAL LINE
-                        제품은 최상급의 품질과 신뢰할 수 있는 컬러를 제공합니다.</p>
-                    <a href="#"><span>+</span>Learn more</a>
-                </figcaption>
-            </figure>
+            <div class="swiper mySwiper2">
+                <div class="second swiper-wrapper">
+                    <figure class="slide2 swiper-slide">
+                        <img class="img1" src="./imgs/main-s-1.png" alt="">
+                        <img class="imgmini1" src="./imgs/16599441383.jpg" alt="">
+                        <figcaption>
+                            <img src="./imgs/16499234512.png" alt="">
+                            <p>미술 분야의 전문가들을 위해 신한화구의 모든 기술과 노하우를 적용한 PROFESSIONAL LINE
+                                제품은 최상급의 품질과 신뢰할 수 있는 컬러를 제공합니다.</p>
+                            <a href="#"><span>+</span>Learn more</a>
+                        </figcaption>
+                    </figure>
+                    <figure class="slide2 swiper-slide">
+                        <img class="img1" src="./imgs/main-s-2.png" alt="">
+                        <img class="imgmini1" src="./imgs/16599441383.jpg" alt="">
+                        <figcaption>
+                            <img src="./imgs/16499234512.png" alt="">
+                            <p>미술 분야의 전문가들을 위해 신한화구의 모든 기술과 노하우를 적용한 PROFESSIONAL LINE
+                                제품은 최상급의 품질과 신뢰할 수 있는 컬러를 제공합니다.</p>
+                            <a href="#"><span>+</span>Learn more</a>
+                        </figcaption>
+                    </figure>
+                    <figure class="slide2 swiper-slide">
+                        <img class="img1" src="./imgs/main-s-3.jpg" alt="">
+                        <img class="imgmini1" src="./imgs/16599441383.jpg" alt="">
+                        <figcaption>
+                            <img src="./imgs/16499234512.png" alt="">
+                            <p>미술 분야의 전문가들을 위해 신한화구의 모든 기술과 노하우를 적용한 PROFESSIONAL LINE
+                                제품은 최상급의 품질과 신뢰할 수 있는 컬러를 제공합니다.</p>
+                            <a href="#"><span>+</span>Learn more</a>
+                        </figcaption>
+                    </figure>
+                    <figure class="slide2 swiper-slide">
+                        <img class="img1" src="./imgs/main-s-4.jpg" alt="">
+                        <img class="imgmini1" src="./imgs/16599441383.jpg" alt="">
+                        <figcaption style="color:#0000ff;">
+                            <img src="./imgs/16487987372.png" alt="">
+                            <p>미술 분야의 전문가들을 위해 신한화구의 모든 기술과 노하우를 적용한 PROFESSIONAL LINE
+                                제품은 최상급의 품질과 신뢰할 수 있는 컬러를 제공합니다.</p>
+                            <a href="#" style="color:#0000ff; border:1px solid #0000ff;" ><span>+</span>Learn more</a>
+                        </figcaption>
+                    </figure>
+                    <figure class="slide2 swiper-slide">
+                        <img class="img1" src="./imgs/main-s-5.png" alt="">
+                        <img class="imgmini1" src="./imgs/16599441383.jpg" alt="">
+                        <figcaption style="color:#000">
+                            <img src="./imgs/16487986822.png" alt="">
+                            <p>미술 분야의 전문가들을 위해 신한화구의 모든 기술과 노하우를 적용한 PROFESSIONAL LINE
+                                제품은 최상급의 품질과 신뢰할 수 있는 컬러를 제공합니다.</p>
+                            <a href="#" style="color:#ff0000;
+                            border:1px solid #ff0000;"><span>+</span>Learn more</a>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
         </article>
 
-        <article class="mainp4">
+        <article class="mainp4 scroll">
             <div class="mainp4-h2">
                 <h2><img src="./imgs/title_logo.png">Major Import Brands</h2>
                 <p>지금까지 경험하지 못했던 새로운 해외 프리미엄 미술 재료를 살펴보세요.</p>
             </div>
-            <div  class="slide3">
-            <!-- 슬라이드 기능 구현 해야함 -->
-            <ul>
-                <li>
-                    <figure>
-                        <img src="./imgs/last-s-1.jpg" alt="">
-                        <div>
-                        <b>FLEUR</b>
-                        <p>이태리 현지 장인에 의해 빚어지는 진정한 지중해 컬러
-                            세계 최초 확산광 미네랄 아크릴컬러로 즐기는
-                            Art&Design 미술재료</p>
-                        <a href="#"><span>+</span>Learn more</a>
-                    </div>
-                    </figure>
-                </li>
-                <li>
-                    <figure>
-                        <img src="./imgs/last-s-2.jpg" alt="">
-                        <div>
-                        <b>PANPASTEL</b>
-                        <p>파우더 형식의 고농축 미세 안료를 담고 있는
-                            지금까지 볼 수 없었던 새로운 개념의 최고급
-                            파스텔 재료</p>
-                        <a href="#"><span>+</span>Learn more</a>
-                    </div>
-                    </figure>
-                </li>
-                <li>
-                    <figure>
-                        <img src="./imgs/last-s-3.jpg" alt="">
-                        <div>
-                        <b>BB 브러쉬</b>
-                        <p>전통적인 제조 방법을 고수하고 이태리 브러시
-                            거장들에 의해 탄생되며 로마 시스티나 성당의 복원
-                            프로젝트 공식 브러시로 채택된 최고급 브러시 브랜드
-                        </p>
-                        <a href="#"><span>+</span>Learn more</a>
-                    </div>
-                    </figure>
-                </li>
-                <li>
-                    <figure>
-                        <img src="./imgs/last-s-4.jpg" alt="">
-                        <div>
-                        <b>MAGNANI</b>
-                        <p>당대 최고의 화가 피카소가 사용했고 나폴레옹이
-                            선택했으며 이태리 왕실의 공식 문서 종이로 채택된
-                            600년 역사의 이태리 최고급 종이 브랜드
-                        </p>
-                        <a href="#"><span>+</span>Learn more</a>
-                    </div>
-                    </figure>
-                </li>
-            </ul>
-        </div>
-        <!-- <div>버튼</div>
-        <div>인디게이터</div> -->
+            <div class="myswiperCon">
+                <div class="slide3 swiper mySwiper3">
+                    <ul class="swiper-wrapper">
+                        <li class="swiper-slide">
+                            <figure>
+                                <img src="./imgs/last-s-1.jpg" alt="">
+                                <div>
+                                    <b>FLEUR</b>
+                                    <p>이태리 현지 장인에 의해 빚어지는 진정한 지중해 컬러
+                                        세계 최초 확산광 미네랄 아크릴컬러로 즐기는
+                                        Art&Design 미술재료</p>
+                                    <a href="#"><span>+</span>Learn more</a>
+                                </div>
+                            </figure>
+                        </li>
+                        <li class="swiper-slide">
+                            <figure>
+                                <img src="./imgs/last-s-2.jpg" alt="">
+                                <div>
+                                    <b>PANPASTEL</b>
+                                    <p>파우더 형식의 고농축 미세 안료를 담고 있는
+                                        지금까지 볼 수 없었던 새로운 개념의 최고급
+                                        파스텔 재료</p>
+                                    <a href="#"><span>+</span>Learn more</a>
+                                </div>
+                            </figure>
+                        </li>
+                        <li class="swiper-slide">
+                            <figure>
+                                <img src="./imgs/last-s-3.jpg" alt="">
+                                <div>
+                                    <b>BB 브러쉬</b>
+                                    <p>전통적인 제조 방법을 고수하고 이태리 브러시
+                                        거장들에 의해 탄생되며 로마 시스티나 성당의 복원
+                                        프로젝트 공식 브러시로 채택된 최고급 브러시 브랜드
+                                    </p>
+                                    <a href="#"><span>+</span>Learn more</a>
+                                </div>
+                            </figure>
+                        </li>
+                        <li class="swiper-slide">
+                            <figure>
+                                <img src="./imgs/last-s-4.jpg" alt="">
+                                <div>
+                                    <b>MAGNANI</b>
+                                    <p>당대 최고의 화가 피카소가 사용했고 나폴레옹이
+                                        선택했으며 이태리 왕실의 공식 문서 종이로 채택된
+                                        600년 역사의 이태리 최고급 종이 브랜드
+                                    </p>
+                                    <a href="#"><span>+</span>Learn more</a>
+                                </div>
+                            </figure>
+                        </li>
+                        <li class="swiper-slide">
+                            <figure>
+                                <img src="./imgs/last-s-5.png" alt="">
+                                <div>
+                                    <b>FLEUR</b>
+                                    <p>이태리 현지 장인에 의해 빚어지는 진정한 지중해 컬러
+                                        세계 최초 확산광 미네랄 아크릴컬러로 즐기는
+                                        Art&Design 미술재료</p>
+                                    <a href="#"><span>+</span>Learn more</a>
+                                </div>
+                            </figure>
+                        </li>
+                    </ul>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
         </article>
+        
+        <!-- <article></article> -->
     </main>
-
-
-<!-- footer width:1680px로 설정해주기 
-border로 위 아래만 선 넣어주기!
--->
-
-    <footer>
+    
+    <footer class="scroll">
         <div>
             <h2>최신 정보 받기</h2>
             <div class="footer-1">
                 <div class="footer-left">
                     <p>신한화구의 소셜미디어 플랫폼을 팔로우 하세요. 제품, 브랜드, 컬러에 대한 최신 정보를
-                    공유하고 있으며 DM을 통해 여러분의 문의사항을 신속하게 답변드리고 있습니다.</p>
-                    <div class="footer-icon">
-                        <img src="./imgs/sns_fb.png" alt="">
-                        <img src="./imgs/sns_youtube.png" alt="">
-                        <img src="./imgs/sns_insta.png" alt="">
-                        <img src="./imgs/sns_naver_blog.png" alt="">
-                        <img src="./imgs/sns_naver_post.png" alt="">
-                        <img src="./imgs/shop_naver.png" alt="">
+                        공유하고 있으며 DM을 통해 여러분의 문의사항을 신속하게 답변드리고 있습니다.</p>
+                        <div class="footer-icon">
+                            <img src="./imgs/sns_fb.png" alt="">
+                            <img src="./imgs/sns_youtube.png" alt="">
+                            <img src="./imgs/sns_insta.png" alt="">
+                            <img src="./imgs/sns_naver_blog.png" alt="">
+                            <img src="./imgs/sns_naver_post.png" alt="">
+                            <img src="./imgs/shop_naver.png" alt="">
+                        </div>
                     </div>
-                </div>
-                <div class="footer-right">
-                    <div>
+                    <div class="footer-right">
+                        <div>
                         <a href="#">About us</a>
                         <a href="#">product</a>
                         <a href="#">Brand</a>
@@ -236,17 +566,12 @@ border로 위 아래만 선 넣어주기!
             <div class="footer-last">
                 <img src="./imgs/shinhanart_logo_tp.png" alt="">
                 <p>ⓒ Copyright 2023 ShinHan Art Materials Inc. All Rights Reserved.
-                    이용약관  |  개인정보 처리방침  |  저작권 안내</p>
-            </div>
-        
+                    이용약관 | 개인정보 처리방침 | 저작권 안내</p>
+                </div>
+                
         </div>
-
-
-
-
-
-
-
     </footer>
+</div>
 </body>
+
 </html>
